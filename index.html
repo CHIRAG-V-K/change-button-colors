@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Change button colors</title>
+  </head>
+  <body>
+    <div class="container-4">
+      <h2>Change The Color Of All Buttons</h2>
+      <div class="flex-box-pic-color">
+        <form action="">
+          <label for="background">Choose Color: </label>
+          <select name="" id="background" onchange="buttonColorChange(this)">
+            <option value="red">RED</option>
+            <option value="green">GREEN</option>
+            <option value="yellow">YELLOW</option>
+            <option value="random">RANDOM</option>
+            <option value="reset" selected>RESET</option>
+          </select>
+        </form>
+        <button class="btn btn-primary" id="wikilink" onclick="wiki()"
+        >Wiki!</button>
+        <button class="btn btn-danger">Yahoo!</button>
+        <button class="btn btn-warning">Google!</button>
+        <button class="btn btn-success">Opera!</button>
+        <button class="btn btn-secondary">G-Mail</button>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

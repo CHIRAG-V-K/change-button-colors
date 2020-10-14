@@ -1,0 +1,12 @@
+.container-4 {
+   background: paleturquoise;
+   border: 1px solid black;
+   text-align: center;
+   text-shadow: 1px 1px;
+   margin: 0 auto;
+ }
+.flex-box-pic-color {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
